@@ -43,8 +43,8 @@
      justify-content: space-between;
      gap: 10px;
      padding: 20px 20px 20px 20px;
-     /* background-color: var(--White); */
-     background-color: rebeccapurple;
+     background-color: var(--White);
+     /* background-color: rebeccapurple; */
      }
 
 .sec_left{
@@ -64,23 +64,23 @@
      flex-direction: column;
      justify-content: space-between;
      order: 2;
-     background-color: green;
+     /* background-color: green; */
      gap: 10px;
 }
 .sec_right_top{
      width: 100%;
-     height: 60%;
+     height: 62%;
      max-width: 740px;
      display: flex;
      gap: 15px;
-     background-color: greenyellow;
+     /* background-color: greenyellow; */
 }
 .sec_right_bottom{
      width: 100%;
-     height: 40%;
+     height: 35%;
      max-width: 740px;
      display: flex;
-     background-color: violet;
+     /* background-color: violet; */
      /* order: 2; */
      gap: 10px;
 }
@@ -90,20 +90,23 @@
      display: flex;
      justify-content: space-between;
      flex-direction: column;
-     background-color: chocolate;
+     /* background-color: chocolate; */
+     gap: 10px;
 }
 .sec_right_top_right{
      width: 30%;
      height: 100%;
 }
 .middle{
+     height: 40%;
      display: flex;
+
 }
 
 .one {
      width: 100%;
      /* max-width: 345px; */
-     height: auto;
+     height: 60%;
      background-color: var(--Purple-500);
      padding: 30px 16px 30px 20px;
      border-radius: 15px;
@@ -111,7 +114,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
 }
 
 .one h3 {
@@ -145,7 +148,7 @@
      height: auto;
      background-color: var(--White);
      padding: 10px 20px;
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
      border-radius: 15px;
      box-shadow: 0 0 5px grey;
 }
@@ -163,12 +166,12 @@
 .three {
      max-width: 345px;
      width: 100%;
-     min-height: 250px;
+     height: auto;
      background-color: var(--Yellow-500);
-     padding: 20px 20px 10px 20px;
+     padding: 10px 20px 0px 20px;
      border-radius: 14px;
      position: relative;
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
 }
 
 .three h3 {
@@ -177,17 +180,18 @@
 }
 
 .three img {
-     width: 200px;
+     width: 80%;
+     height: 70%;
      padding-top: 10px;
-     padding-bottom: 0;
-     bottom: 0;
-     position: absolute;
+     /* padding-bottom: 0; */
+     /* bottom: 0;
+     position: absolute; */
 }
 
 .four {
-     max-width: 345px;
+     /* max-width: 345px; */
      width: 100%;
-     height: auto;
+     height: 100%;
      background-color: var(--Purple-100);
      padding: 30px 16px 30px 20px;
      border-radius: 15px;
@@ -195,7 +199,6 @@
      flex-direction: column;
      align-items: center;
      justify-content: space-between;
-     margin-bottom: 10px;
      gap: 20px;
 }
 
@@ -217,26 +220,26 @@
      width: 70%;
      height: auto;
      background-color: var(--Purple-500);
-     padding: 30px 16px 30px 20px;
+     padding: 30px 16px 0px 10px;
      border-radius: 15px;
      display: flex;
-     flex-direction: column;
+     /* flex-direction: column; */
      align-items: center;
      justify-content: space-between;
-     gap: 20px;
+     gap: 10px;
      order: 2;
 }
 
 .five h3 {
-     width: 200px;
-     font-size: 1.4rem;
+     /* width: 200px; */
+     font-size: 1.5rem;
      font-weight: 600;
-     text-align: center;
+     text-align: start;
      color: var(--White);
 }
 
 .five img {
-     width: 60%;
+     width: 40%;
 }
 
 .six {
